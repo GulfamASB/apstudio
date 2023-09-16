@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import About from './about';
 
 const Herosection =()=> {
   return (
@@ -23,6 +24,7 @@ const Herosection =()=> {
         </div>                
     </div>
 </section>
+    <About/>
     </>
   )
 }

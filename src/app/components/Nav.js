@@ -1,6 +1,5 @@
 import React from 'react'
-
-function Nav() {
+const Nav =() => {
   return (
     <>
 <nav class="border-gray-200 bg-black dark:bg-gray-800 dark:border-gray-700">
