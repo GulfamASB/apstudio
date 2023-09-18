@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../app/styles/common.module.css"
 import { text } from 'stream/consumers';
-import Products from "./Products"
+
 import Image from "next/image";
 
 const about=()=> {
@@ -20,8 +20,7 @@ const about=()=> {
             <Image class="mt-4 w-full lg:mt-10 rounded-lg" src="/AP1.jpg" width={100} height={100} alt="office content 2"/>
         </div>
     </div>
-</section>
-  
+    </section>
     </>
   )
 };export default about;
