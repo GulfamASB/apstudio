@@ -21,7 +21,7 @@ const about=()=> {
         </div>
     </div>
 </section>
-    <Products />
+  
     </>
   )
 };export default about;
