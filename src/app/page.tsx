@@ -10,6 +10,7 @@ function page() {
     <>
     <Nav />
     <Herosection />
+    <About />
   
     </>
   );
