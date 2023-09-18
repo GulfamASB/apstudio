@@ -1,16 +1,22 @@
 import React from 'react'
-
+import Image from "next/image";
 const footer =() => {
   return (
     <>
-      <footer class="bg-white">
+      <footer class="bg-black">
   <div
     class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8"
   >
     <div class="sm:flex sm:items-center sm:justify-between">
       <div class="text-teal-600">
-      <img src="AP.png" class="h-8" alt="Flowbite Logo"  />
-      <span style={{}}>A PLUS STUDIO</span>
+      <Image
+        src="/AP.png"
+        alt="AP"
+        className="object-cover object-center w-full h-full block" 
+        width={30}
+        height={30}
+      />
+      <span style={{color:"white", fontSize:"bold"}}>A PLUS STUDIO</span>
       </div>
 
       <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
@@ -19,7 +25,7 @@ const footer =() => {
             href="/"
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:opacity-75"
+            class="text-white transition hover:opacity-75"
           >
             <span class="sr-only">Facebook</span>
 
@@ -43,7 +49,7 @@ const footer =() => {
             href="/"
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:opacity-75"
+            class="text-white transition hover:opacity-75"
           >
             <span class="sr-only">Instagram</span>
 
@@ -67,7 +73,7 @@ const footer =() => {
             href="/"
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:opacity-75"
+            class="text-white transition hover:opacity-75"
           >
             <span class="sr-only">Twitter</span>
 
@@ -89,7 +95,7 @@ const footer =() => {
             href="/"
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:opacity-75"
+            class="text-white transition hover:opacity-75"
           >
             <span class="sr-only">GitHub</span>
 
@@ -113,7 +119,7 @@ const footer =() => {
             href="/"
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:opacity-75"
+            class="text-white transition hover:opacity-75"
           >
             <span class="sr-only">Dribbble</span>
 
@@ -138,35 +144,35 @@ const footer =() => {
       class="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
     >
       <div>
-        <p class="font-medium text-gray-900">Services</p>
+        <p class="font-medium text-white">Services</p>
 
         <ul class="mt-6 space-y-4 text-sm">
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               1on1 Coaching
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Company Review
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Accounts Review
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               HR Consulting
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               SEO Optimisation
             </a>
           </li>
@@ -174,23 +180,23 @@ const footer =() => {
       </div>
 
       <div>
-        <p class="font-medium text-gray-900">Company</p>
+        <p class="font-medium text-white">Company</p>
 
         <ul class="mt-6 space-y-4 text-sm">
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               About
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Meet the Team
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Accounts Review
             </a>
           </li>
@@ -198,23 +204,23 @@ const footer =() => {
       </div>
 
       <div>
-        <p class="font-medium text-gray-900">Helpful Links</p>
+        <p class="font-medium text-white">Helpful Links</p>
 
         <ul class="mt-6 space-y-4 text-sm">
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Contact
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               FAQs
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Live Chat
             </a>
           </li>
@@ -222,29 +228,29 @@ const footer =() => {
       </div>
 
       <div>
-        <p class="font-medium text-gray-900">Legal</p>
+        <p class="font-medium text-white">Legal</p>
 
         <ul class="mt-6 space-y-4 text-sm">
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Accessibility
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Returns Policy
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Refund Policy
             </a>
           </li>
 
           <li>
-            <a href="#" class="text-gray-700 transition hover:opacity-75">
+            <a href="#" class="text-white transition hover:opacity-75">
               Hiring Statistics
             </a>
           </li>
